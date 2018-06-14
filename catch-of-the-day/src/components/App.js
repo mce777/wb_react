@@ -8,7 +8,7 @@ class App extends React.Component {
       return (
         <div className="catch-of-the-day">
           <div className="menu">
-            <Header />
+            <Header tagline="Fresh Seafood" />
           </div>
           <Order />
           <Inventory />
@@ -18,3 +18,7 @@ class App extends React.Component {
 }
 
 export default App;
+
+// state is the home
+// props is the car
+// try $r in the console
